@@ -1,0 +1,17 @@
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+.box{
+   width: 76%;
+}
+}
+@media only screen and (min-device-width: 414px) and (max-device-width: 896px) and (-webkit-min-device-pixel-ratio: 2) {
+.box{
+  width: 68%; 
+}
+}
+@media only screen and (min-device-width: 390px) and (max-device-width: 844px) and (-webkit-min-device-pixel-ratio: 3) {
+.box{
+width: 73%;   
+}
+}
+
+
