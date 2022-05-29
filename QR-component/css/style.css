@@ -12,11 +12,11 @@ body {
 
 main {
   position: relative;
-  top: 5rem;
+  top: 7rem;
 }
 
 .box {
-  width: 25%;
+  width: 250px;
   height: auto;
   padding-bottom: 2.5rem;
   background-color: hsl(0, 0%, 100%);
@@ -34,7 +34,7 @@ main {
   border-radius: 1rem;
 }
 
-main h3 {
+main h1 {
   text-align: center;
   font-weight: 700;
   padding: 0 1rem;
@@ -44,14 +44,14 @@ main h3 {
 
 main p {
   text-align: center;
-  padding: 0 1.5rem;
+  padding: 0 .6rem;
   margin-top: 1rem;
   font-weight: 400;
   font-size: 0.9375rem;
 }
 
 footer {
-   margin-top: 1rem;
+  margin-top: 2rem;
   font-size: 11px;
   text-align: center;
   font-weight: 700;
