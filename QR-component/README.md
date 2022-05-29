@@ -18,8 +18,8 @@ QR landing page.
 
 ### Screenshots
 
-![Mobile Layout For 375px screens](/Design%20solution/DesktopQR.png)
-![Desktop Layout](/Design%20solution/DesktopQR.png)
+![Mobile Layout For 375px screens](./myimg/375pxQR.png)
+![Desktop Layout](./myimg/DesktopQR.png)
 
 ### Links
 
