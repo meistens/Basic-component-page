@@ -23,7 +23,7 @@ QR landing page.
 
 ### Links
 
-- Live Site URL: [GitHub Pages](https://meistens.github.io/qr-component/)
+- Live Site URL: [Here](https://basic-component-page.vercel.app)
 
 ## My process
 
