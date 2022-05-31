@@ -1,0 +1,40 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Outfit', sans-serif;
+}
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   min-height: 100vh;
+   background-color: hsl(217, 54%, 11%);
+}
+.box{
+   background: hsl(216, 50%, 16%);
+   width: 20rem;
+   height: auto ;
+   border-radius: 0.69rem;
+}
+.img-box{
+width: 87%;
+height: auto;
+margin: 0 auto;
+padding-top: 1.25rem;
+}
+/* image container first before image, practice on that */
+.img-box img{
+   width: 100%;
+   border-radius: 5px;
+   display: block;
+}
+h1{
+   margin-top: 1.25rem;
+   color: hsl(0, 0%, 100%);
+   font-weight: 600;
+   padding: 10px;
+   font-size: 25px;
+/* note to self; adjsut padding to be inline with image, margin top and bottom seperate */
+}
