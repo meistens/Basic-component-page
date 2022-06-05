@@ -3,8 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
     <link
       rel="icon"
       type="image/png"
@@ -21,16 +19,6 @@
     />
     <link rel="stylesheet" href="./css/style.css" />
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
     <main>
@@ -40,33 +28,37 @@
             ><img src="./images/image-equilibrium.jpg" alt="Equilibrium image"
           /></a>
         </div>
-        <h1><a href="#">Equilibrium #3429</a></h1>
-        <p>Our Equilibrium collection promotes balance and calm.</p>
+        <div class="textarea">
+          <h1><a href="#">Equilibrium #3429</a></h1>
+          <p>Our Equilibrium collection promotes balance and calm.</p>
+        </div>
         <div class="price">
-          <h4>
-            <img src="./images/icon-ethereum.svg" alt="ethereum icon" /> 0.041
-            ETH
-          </h4>
-          <p>
-            <img src="./images/icon-clock.svg" alt="clock icon" />3 days left
-          </p>
+          <div class="eth-price">
+            <img src="./images/icon-ethereum.svg" alt="ethereum icon" />
+            <h4>0.041ETH</h4>
+          </div>
+          <div class="timer">
+            <img src="./images/icon-clock.svg" alt="clock icon" />
+            <p>3 days left</p>
+          </div>
         </div>
         <hr />
-        <p>
+        <div class="profile">
           <img
             src="./images/image-avatar.png"
             alt="Creator image"
             class="creator"
-          />Creation of Jules Wyvern
-        </p>
+          />
+          <p>Creation of <a href="#">Jules Wyvern</a></p>
+        </div>
       </div>
     </main>
 
-    <div class="attribution">
+    <footer>
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+      >. Coded by <a href="https://github.com/meistens">Mebo David</a>.
+    </footer>
   </body>
 </html>
