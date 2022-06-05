@@ -70,9 +70,10 @@ I plan to come back and rebuild all existing projects once i get the hang of sas
 
 ### Useful resources
 
-- [on css-tricks](css-tricks.com/7-practical-uses-for-the-before-and-after-pseudo-elements-in-css/).
-Helped tremendously while I was trying to use the ::before and ::after pseudo elements
-[Bryan Robinson](https://youtu.be/SXQ9IOScDEA).
+- [css-tricks](css-tricks.com/7-practical-uses-for-the-before-and-after-pseudo-elements-in-css/).
+Helped tremendously while I was trying to use the ::before and ::after pseudo elements.
+
+- [Bryan Robinson](https://youtu.be/SXQ9IOScDEA).
 Made it perfectly clear while using the ::after element, plus where I realized I was not actually targeting the element I wanted to style.
 
 ## Author
