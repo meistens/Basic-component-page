@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+}
+:root {
+  --primary-color1: hsl(225, 100%, 94%);
+  --primary-color2: hsl(245, 75%, 52%);
+  --neutral-color1: hsl(225, 100%, 98%);
+  --neutral-color2: hsl(224, 23%, 55%);
+  --neutral-color3: hsl(223, 47%, 23%);
+}
+body {
+  background: url(../images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: var(--primary-color1);
+  min-height: 100vh;
+  position: relative;
+}
+main {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+section {
+  width: fit-content;
+  margin: auto;
+}
+section.grid {
+  background-color: white;
+  display: grid;
+  grid-template-rows: minmax(0, 1fr);
+  grid-auto-columns: 320px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  overflow: hidden;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+.test h1 {
+  text-align: center;
+  padding: 1.5rem;
+  font-weight: 900;
+}
+.test p {
+  text-align: center;
+  padding: 0 1.5625rem;
+  font-size: 1rem;
+}
+.contain {
+  margin: 20px;
+  border-radius: 20px;
+}
+.pricing {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--neutral-color1);
+  padding: 20px;
+  border-radius: 20px;
+}
+.contain .sub{
+   margin: 0 16px 0 50px;
+}
+button{
+   background-color: var(--primary-color2);
+   width: 280px;
+   height: 50px;
+   margin: auto;
+   border-radius: 10px;
+   border: 0;
+   box-shadow: 0 16px 5px 5px rgba(224, 232, 255, 0.7);
+   margin-bottom: 1rem;
+}
+button a{
+   color: white;
+   text-decoration: none;
+}
+.action p{
+   text-align: center;
+   margin: 5px 0 20px;
+}
