@@ -26,10 +26,10 @@ main {
   left: 50%;
   transform: translateX(-50%);
 }
-section{
+section {
   text-align: center;
 }
-section p{
+section p {
   color: var(--neutral-color2);
 }
 section.grid {
@@ -39,7 +39,7 @@ section.grid {
   grid-auto-columns: 320px;
   justify-content: center;
   align-items: center;
-  border-radius: 20px;
+  border-radius: 1.25rem;
   overflow: hidden;
 }
 img {
@@ -57,18 +57,73 @@ img {
   font-size: 1rem;
 }
 .contain {
-  margin: 20px;
-  border-radius: 20px;
+  margin: 1.25rem;
+  border-radius: 1.25rem;
 }
 .pricing {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   background-color: var(--neutral-color1);
-  height: 80px;
-  border-radius: 20px;
+  height: 5rem;
+  border-radius: 1.25rem;
 }
 .sub {
-  padding-right: 16px;
+  padding-right: 1rem;
 }
-button{}
+.pricing p{
+  font-weight: 600;
+}
+.pricing a:focus{
+  color: inherit;
+}
+button {
+  padding: 1rem 4.625rem;
+  border-radius: 1rem;
+  border: 0;
+  background-color: var(--primary-color2);
+  box-shadow: 0 1rem 0.625rem 0 rgba(114, 128, 167, 0.3);
+  cursor: pointer;
+}
+button a {
+  color: white;
+  font-weight: 900;
+  text-decoration: none;
+}
+button:focus,
+button:active {
+  background-color: var(--neutral-color2);
+  transform: scale(0.9);
+}
+.action p{
+  margin: 1rem 0;
+}
+.x-btn {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 900;
+}
+.x-btn:focus {
+  color: var(--neutral-color3);
+}
+footer {
+  font-size: 0.68rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+footer a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  body{
+    background: url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: var(--primary-color1);
+    min-height: 100vh;
+  }
+  main{
+  top: 20%;
+  }
+}
