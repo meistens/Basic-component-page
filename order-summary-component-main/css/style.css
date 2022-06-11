@@ -46,21 +46,19 @@ img {
   max-width: 100%;
   display: block;
 }
-.test h1 {
-  text-align: center;
+.hero h1 {
   padding: 1.5rem;
   font-weight: 900;
 }
-.test p {
-  text-align: center;
+.hero p {
   padding: 0 1.5625rem;
   font-size: 1rem;
 }
-.contain {
+.box {
   margin: 1.25rem;
   border-radius: 1.25rem;
 }
-.pricing {
+.price-plans {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -68,13 +66,13 @@ img {
   height: 5rem;
   border-radius: 1.25rem;
 }
-.sub {
+.price {
   padding-right: 1rem;
 }
-.pricing p{
+.price-plans p{
   font-weight: 600;
 }
-.pricing a:focus{
+.price-plans a:focus{
   color: inherit;
 }
 button {
@@ -113,17 +111,4 @@ footer {
 }
 footer a {
   color: hsl(228, 45%, 44%);
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1440px) {
-  body{
-    background: url(../images/pattern-background-desktop.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-color: var(--primary-color1);
-    min-height: 100vh;
-  }
-  main{
-  top: 20%;
-  }
 }
