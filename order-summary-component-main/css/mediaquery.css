@@ -7,7 +7,23 @@
      min-height: 100vh;
    }
    main{
-   top: 20%;
+    top: 11%;
+   }
+   section.grid{
+    grid-auto-columns: 450px;
+   }
+   .hero p{
+    padding: 0 4rem;
+   }
+   .box{
+    margin: 1.25rem auto;
+   }
+   .price-plans{
+    width: 23.125rem;
+    height: 7rem;
+   }
+   button{
+    padding: 1.5rem 7.3rem;
    }
  }
  
@@ -20,7 +36,23 @@
      min-height: 100vh;
    }
    main{
-   top: 20%;
+   top: 5%;
+   }
+   section.grid{
+    grid-auto-columns: 450px;
+   }
+   .hero p{
+    padding: 0 4rem;
+   }
+   .box{
+    margin: 1.25rem auto;
+   }
+   .price-plans{
+    width: 23.125rem;
+    height: 7rem;
+   }
+   button{
+    padding: 1.5rem 7.3rem;
    }
  }
 

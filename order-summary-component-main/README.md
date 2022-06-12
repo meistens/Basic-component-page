@@ -47,6 +47,10 @@ First challenge completed by building using a Mobile-first approach, felt way di
 
 This exercise was a challenge to me (sounds silly, I know), probably due to me stuck in "tutorial hell", being sturbbon on using Grid instead of Fexbox for the layout or both.
 
+Forgot to add, discovered LT Browser and it has been a great experience. Though it is not the ideal way for coding production-wise as I cannot fully test (or never... still dyor on it though) for crossbrowser functionality, though it helped me discover a bug Chrome conviently "hid", it is way better in helping me give a clear visual on how it would look like on others instead of basing the design off the potato laptop I'm managing which, after checking, looks horrible.
+
+Ah well, better days ahead, hopefully.
+
 Bottomine, did some refresher and figured it out, using implict Grid to solve the layout issue.
 
 ### Continued development
