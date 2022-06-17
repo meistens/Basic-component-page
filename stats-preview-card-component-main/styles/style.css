@@ -17,13 +17,26 @@ font-family: 'Inter','Lexend Deca', sans-serif;
 font-size: 15px;
 background: var(--MB);
 color: white;
+min-height: 100vh;
+/* max-width: 1440px; media query?*/
+display: flex;
+justify-content: center;
+/* to make grid not expand, i need this. */
+align-items: center;
+flex-direction: column;
 }
-.grid{
+main{
    display: grid;
-   grid-template-columns: repeat(2, 1fr);
+   grid-template-columns: repeat(auto-fit, minmax(200px,auto));
    justify-content: center;
    align-items: center;
+   /* max-width: 1440px; this causes the width of the box to expand, nothing to do with the grid */
+   background: var(--CB);
+}
+.grid1{
+   padding: 0 3rem;
 }
 img{
-   width: 100%;
+   max-width: 100%;
+   display: block;
 }
