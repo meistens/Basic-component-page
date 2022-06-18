@@ -1,42 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
-:root{
---MB: hsl(233, 47%, 7%);
---CB:hsl(244, 38%, 16%);
---AC:hsl(277, 64%, 61%);
---WH-S:hsl(0, 0%, 100%);
---MP:hsla(0, 0%, 100%, 0.75);
---SH:hsla(0, 0%, 100%, 0.6);
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+:root {
+  --MB: hsl(233, 47%, 7%);
+  --CB: hsl(244, 38%, 16%);
+  --AC: hsl(277, 64%, 61%);
+  --WH-S: hsl(0, 0%, 100%);
+  --MP: hsla(0, 0%, 100%, 0.75);
+  --SH: hsla(0, 0%, 100%, 0.6);
 }
-*{
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-font-family: 'Inter','Lexend Deca', sans-serif;
-font-size: 15px;
-background: var(--MB);
-color: white;
-min-height: 100vh;
-/* max-width: 1440px; media query?*/
-display: flex;
-justify-content: center;
-/* to make grid not expand, i need this. */
-align-items: center;
-flex-direction: column;
+body {
+  font-size: 15px;
+  background: var(--MB);
+  color: white;
+  min-height: 100vh;
+  /* max-width: 1440px; media query?*/
+  display: flex;
+  justify-content: center;
+  /* to make grid not expand, i need this. */
+  align-items: center;
+  flex-direction: column;
 }
-main{
-   display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(200px,auto));
-   justify-content: center;
-   align-items: center;
-   /* max-width: 1440px; this causes the width of the box to expand, nothing to do with the grid */
-   background: var(--CB);
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  justify-content: center;
+  align-items: center;
+  /* max-width: 1440px; this causes the width of the box to expand, nothing to do with the grid */
+  background: var(--CB);
+  border-radius: 5px;
+  overflow: hidden;
 }
-.grid1{
-   padding: 0 3rem;
+.grid1 {
+  padding: 0 5rem;
+  line-height: 1.8;
 }
-img{
-   max-width: 100%;
-   display: block;
+.grid2 {
+  background: var(--AC);
 }
+.grid2 img {
+  width: 100%;
+  display: block;
+  mix-blend-mode: multiply;
+  opacity: 0.8;
+}
+header p {
+  color: var(--SH);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+.grid1 h1 {
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}
+.grid1 h1 span {
+  color: var(--AC);
+}
+.grid1 > p {
+  margin: 2rem 0;
+}
+.grid1 .statistics {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 2.5rem;
+}
+.statistics span strong {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+.statistics span p {
+  text-transform: uppercase;
+}
+footer {
+   font-size: 11px;
+   text-align: center;
+   margin-top: 4rem;
+ }
+ footer a {
+   color: hsl(228, 45%, 44%);
+ }
