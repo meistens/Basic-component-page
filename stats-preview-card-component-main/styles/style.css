@@ -26,7 +26,7 @@ body {
 }
 main {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(320px, auto));
   justify-content: center;
   align-items: center;
   /* max-width: 1440px; this causes the width of the box to expand, nothing to do with the grid */

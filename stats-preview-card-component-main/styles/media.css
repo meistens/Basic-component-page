@@ -1,5 +1,35 @@
-@media screen and (max-width: 375px){
+@media screen and (max-width: 414px){
    main{
-      max-width: 300px;
+      width: 90%;
+   }
+   .grid1{
+      padding: 0 1.8rem;
+      text-align: center;
+      line-height: normal;
+   }
+   .grid1 h1{
+      margin-top: 2rem;
+   }
+   .grid1 > p{
+      line-height: 1.8;
+      margin: 1rem 0;
+   }
+   .grid1 .statistics{
+      flex-direction: column;
+      padding: unset;
+      line-height: 1.6;
+   }
+   .statistics span strong{
+      font-weight: 700;
+      font-size: 1.5rem;
+   }
+   .statistics span{
+      padding: 1.5rem 0;
+   }
+   .grid2{
+      grid-row: 1;
+   }
+   footer{
+      margin-top: 1rem;
    }
 }
