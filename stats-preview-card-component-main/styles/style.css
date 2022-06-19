@@ -26,22 +26,23 @@ body {
 }
 main {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   justify-content: center;
   align-items: center;
   /* max-width: 1440px; this causes the width of the box to expand, nothing to do with the grid */
   background: var(--CB);
   border-radius: 5px;
   overflow: hidden;
+  margin: 2rem;
 }
-.grid1 {
-  padding: 0 5rem;
+.grid_1 {
+  padding: 0 6rem;
   line-height: 1.8;
 }
-.grid2 {
+.grid_2 {
   background: var(--AC);
 }
-.grid2 img {
+.grid_2 img {
   width: 100%;
   display: block;
   mix-blend-mode: multiply;
@@ -52,17 +53,18 @@ header p {
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
 }
-.grid1 h1 {
+.grid_1 h1 {
   font-weight: 700;
   font-family: "Inter", sans-serif;
+  line-height: normal;
 }
-.grid1 h1 span {
+.grid_1 h1 span {
   color: var(--AC);
 }
-.grid1 > p {
-  margin: 2rem 0;
+.grid_1 > p {
+  margin: 1.5rem 0 4rem 0;
 }
-.grid1 .statistics {
+.grid_1 .statistics {
   display: flex;
   justify-content: space-between;
   padding-right: 2.5rem;

@@ -1,22 +1,19 @@
 @media screen and (max-width: 414px){
-   main{
-      width: 90%;
-   }
-   .grid1{
-      padding: 0 1.8rem;
+   .grid_1{
+      padding: 0 1.3rem;
       text-align: center;
       line-height: normal;
    }
-   .grid1 h1{
+   .grid_1 h1{
       margin-top: 2rem;
    }
-   .grid1 > p{
+   .grid_1 > p{
       line-height: 1.8;
       margin: 1rem 0;
    }
-   .grid1 .statistics{
+   .grid_1 .statistics{
       flex-direction: column;
-      padding: unset;
+      padding: 0 0 1.5rem 0;
       line-height: 1.6;
    }
    .statistics span strong{
@@ -24,12 +21,13 @@
       font-size: 1.5rem;
    }
    .statistics span{
-      padding: 1.5rem 0;
+      padding: 0.5rem 0;
    }
-   .grid2{
+   .grid_2{
       grid-row: 1;
    }
    footer{
-      margin-top: 1rem;
+      margin-top: unset;
+      padding-bottom: 2rem;
    }
 }
